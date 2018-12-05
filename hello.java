@@ -8,6 +8,7 @@ import javax.ws.rs.core.MediaType;
 
 import com.offcn.po.Mobile;
 //这是一个JAVA类
+//********************************************************
 public interface MobileService {
 	
 	@GET
