@@ -20,4 +20,10 @@ public interface MobileService {
 	@Path("/search/{number}")
 	@Produces({MediaType.APPLICATION_XML,MediaType.APPLICATION_JSON})
    public Mobile find(@PathParam("number")String number);
+
+
+	@GET
+	@Path("/search/{number}")
+	@Produces({MediaType.APPLICATION_XML,MediaType.APPLICATION_JSON})
+   public Mobile find2(@PathParam("number")String number);
 }
